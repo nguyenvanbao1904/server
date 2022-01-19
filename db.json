@@ -3,34 +3,22 @@
     {
       "id": 0,
       "userName": "admin",
-      "status": "Ok"
+      "status": ""
     },
     {
       "id": 1,
       "userName": "Ngô Thúy An",
-      "status": "Ok"
+      "status": ""
     },
     {
       "id": 2,
       "userName": "Nguyễn Phương Anh",
-      "status": "Ok"
+      "status": ""
     },
     {
       "id": 3,
       "userName": "Nguyễn Thị Trúc Anh",
-      "status": "Ok"
-    },
-    {
-      "userName": "Duyên",
-      "status": "",
-      "createdAt": 1642589401743,
-      "id": 4
-    },
-    {
-      "userName": "Duyên",
-      "status": "Ok",
-      "createdAt": 1642589411585,
-      "id": 5
+      "status": ""
     }
   ],
   "passwords": [
