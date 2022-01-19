@@ -1,0 +1,31 @@
+# @name Get
+GET http://localhost:3000/api/userNames
+
+###
+
+#@name add
+POST http://localhost:3000/api/userNames
+Content-Type: application/json
+
+{
+    "userName": "Duyên",
+    "status":
+}
+
+###
+
+#@name upadte
+
+PATCH  http://localhost:3000/api/userNames/5
+Content-Type: application/json
+
+{
+    "userName": "Duyên",
+    "status": "Ok"
+}
+
+###
+
+#@name remove
+
+DELETE   http://localhost:3000/api/userNames/5
