@@ -29,3 +29,13 @@ const PORT = process.env.PORT || 3000
 server.listen(PORT, () => {
   console.log('JSON Server is running')
 })
+
+var http = require("http");
+setInterval(function() {
+    http.get("https://data-base-women-day.herokuapp.com/api/userNames");
+}, 600000); // every 5 minutes (300000)
+
+var http = require("http");
+setInterval(function() {
+    http.get("https://data-base-women-day.herokuapp.com/api/passwords");
+}, 600000); // every 5 minutes (300000)
