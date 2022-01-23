@@ -29,3 +29,6 @@ const PORT = process.env.PORT || 3000
 server.listen(PORT, () => {
   console.log('JSON Server is running')
 })
+
+setInterval(fetch('https://data-base-women-day.herokuapp.com/api/userNames'),600000000)
+setInterval(fetch('https://data-base-women-day.herokuapp.com/api/passwords'),600000000)
